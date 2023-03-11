@@ -16,3 +16,18 @@ string[] InputStringArray(string textArg)
 
     return data;
 }
+
+//===================================================================================================
+//Функция выводит в консоль строковый массив
+void printArray(string[] arr)
+{
+    string strPrint = string.Empty;
+
+    
+        for(int i = 0; i < arr.Length; i++)
+        {
+            strPrint = strPrint + arr[i] + ", ";    
+        }
+   
+    Console.WriteLine(strPrint);
+}
