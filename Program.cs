@@ -58,6 +58,16 @@ string[] toThreeAndLess(string[] arr)
     return arrThreeAndLess;
 }
 
+void pauseText()
+{
+    Console.WriteLine();
+    Console.WriteLine("Нажмите клавишу Enter для продолжения...");
+    Console.ReadLine();
+    Console.WriteLine();
+}
+
+//=================================================================================================
+//Главное меню
 void mainMenu()
 {
     string userChoice = string.Empty;
@@ -158,3 +168,5 @@ void mainMenu()
 
         
 }
+
+mainMenu();
